@@ -3,6 +3,34 @@
   <groupId>Hackathon_Project</groupId>
   <artifactId>Hackathon_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+		<pluginManagement>
+ 
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.11.0</version>
+				</plugin>
+ 
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.2.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<!-- <suiteXmlFile>xyz.xml</suiteXmlFile>-->
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+ 
+			</plugins>
+ 
+		</pluginManagement>
+ 
+ 
+	</build>
   <dependencies>
 <!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml  -->
 <!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml  -->
@@ -74,6 +102,7 @@
 <artifactId>log4j-core</artifactId>
 <version>3.0.0-beta1</version>
 </dependency>
+
 
 
  
