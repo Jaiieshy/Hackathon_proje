@@ -1,0 +1,7 @@
+17:37:15.457 [main] INFO  testCase.TestCase - search_functionalityPaased Test Case
+17:37:21.599 [main] INFO  testCase.TestCase - filter_functionalityPaased Test Case
+17:37:26.221 [main] INFO  testCase.TestCase - check_sortfuctionPaased Test Case
+17:37:29.231 [main] INFO  testCase.TestCase - check_and_printPaased Test Case
+17:37:39.501 [main] INFO  testCase.TestCase - submenu_printcheckPaased Test Case
+17:38:01.041 [main] INFO  testCase.TestCase - choose_giftcard_validatePaased Test Case
+17:38:04.708 [main] INFO  testCase.TestCase - checkout_validationPaased Test Case
