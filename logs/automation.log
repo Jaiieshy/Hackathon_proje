@@ -5,3 +5,35 @@
 17:37:39.501 [main] INFO  testCase.TestCase - submenu_printcheckPaased Test Case
 17:38:01.041 [main] INFO  testCase.TestCase - choose_giftcard_validatePaased Test Case
 17:38:04.708 [main] INFO  testCase.TestCase - checkout_validationPaased Test Case
+14:49:34.925 [main] INFO  testCase.TestCase - Passedsearch_functionality
+14:49:40.628 [main] INFO  testCase.TestCase - Passedfilter_functionality
+14:49:43.333 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+14:49:45.238 [main] INFO  testCase.TestCase - Passedcheck_and_print
+14:49:54.093 [main] INFO  testCase.TestCase - Passedsubmenu_printcheck
+14:50:21.800 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+14:50:55.835 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+14:50:58.009 [main] INFO  testCase.TestCase3 - Passedcheckout_validation
+15:06:43.896 [main] INFO  testCase.TestCase - Passedsearch_functionality
+15:06:50.697 [main] INFO  testCase.TestCase - Passedfilter_functionality
+15:06:53.765 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+15:06:56.302 [main] INFO  testCase.TestCase - Passedcheck_and_print
+15:07:05.740 [main] INFO  testCase.TestCase - Passedsubmenu_printcheck
+15:07:28.895 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+15:08:02.403 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+15:08:04.817 [main] INFO  testCase.TestCase3 - Passedcheckout_validation
+15:15:16.983 [main] INFO  testCase.TestCase - Passedsearch_functionality
+15:15:23.234 [main] INFO  testCase.TestCase - Passedfilter_functionality
+15:15:26.687 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+15:15:30.233 [main] INFO  testCase.TestCase - Passedcheck_and_print
+15:15:41.877 [main] INFO  testCase.TestCase - Passedsubmenu_printcheck
+15:16:12.215 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+15:17:06.011 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+15:17:10.621 [main] INFO  testCase.TestCase3 - Passedcheckout_validation
+15:21:54.937 [main] INFO  testCase.TestCase - Passedsearch_functionality
+15:22:00.226 [main] INFO  testCase.TestCase - Passedfilter_functionality
+15:22:01.950 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+15:22:03.398 [main] INFO  testCase.TestCase - Passedcheck_and_print
+15:22:12.053 [main] INFO  testCase.TestCase - Passedsubmenu_printcheck
+15:22:29.797 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+15:22:56.750 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+15:22:58.453 [main] INFO  testCase.TestCase3 - Passedcheckout_validation

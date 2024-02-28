@@ -42,13 +42,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class base{
  
-	public WebDriver driver ;
+	public static WebDriver driver ;
 public static Logger logger;
 public Properties p;
 	
@@ -117,12 +118,14 @@ public Properties p;
 		driver.quit();
 	}
 	
-	public static String screenShot(String filename, WebDriver driver) throws IOException {
+	public static String screenShot(String filename) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File trg = new File(System.getProperty("user.dir") + "\\screenshots\\" + filename + ".png");
+		String path = System.getProperty("user.dir") + "\\screenshots\\" + filename + ".png";
+		File trg = new File(path);
 		FileUtils.copyFile(src, trg);
-		return trg.getAbsolutePath();
+		return path;
+		//return trg.getAbsolutePath();
 	}
 	public Properties getProperties() throws IOException {
 		FileReader file=new FileReader(".//src//test//resources//config.properties");

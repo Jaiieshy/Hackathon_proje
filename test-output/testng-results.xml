@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T17:35:01 IST" name="Suite" finished-at="2024-02-27T17:38:10 IST" duration-ms="188653">
+  <suite started-at="2024-02-28T15:21:32 IST" name="Suite" finished-at="2024-02-28T15:22:59 IST" duration-ms="87018">
     <groups>
     </groups>
-    <test started-at="2024-02-27T17:35:01 IST" name="Test" finished-at="2024-02-27T17:38:10 IST" duration-ms="188653">
-      <class name="testCase.TestCase">
-        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:35:03 IST" name="driverSetup" finished-at="2024-02-27T17:36:31 IST" duration-ms="88226" status="PASS">
+    <test started-at="2024-02-28T15:21:32 IST" name="Test" finished-at="2024-02-28T15:22:59 IST" duration-ms="87018">
+      <class name="testCase.TestCase3">
+        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestCase3@7770f470]" started-at="2024-02-28T15:22:31 IST" name="driverSetup" finished-at="2024-02-28T15:22:38 IST" duration-ms="7153" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,35 +23,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="search_functionality()[pri:0, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:36:31 IST" name="search_functionality" finished-at="2024-02-27T17:37:15 IST" duration-ms="43870" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_functionality -->
-        <test-method signature="filter_functionality()[pri:1, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:37:15 IST" name="filter_functionality" finished-at="2024-02-27T17:37:21 IST" duration-ms="6074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filter_functionality -->
-        <test-method signature="check_sortfuction()[pri:2, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:37:21 IST" name="check_sortfuction" finished-at="2024-02-27T17:37:26 IST" duration-ms="4615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_sortfuction -->
-        <test-method signature="check_and_print()[pri:3, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:37:26 IST" name="check_and_print" finished-at="2024-02-27T17:37:29 IST" duration-ms="3003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_and_print -->
-        <test-method signature="submenu_printcheck()[pri:4, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:37:29 IST" name="submenu_printcheck" finished-at="2024-02-27T17:37:39 IST" duration-ms="10263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submenu_printcheck -->
-        <test-method signature="choose_giftcard_validate()[pri:5, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:37:39 IST" name="choose_giftcard_validate" finished-at="2024-02-27T17:38:01 IST" duration-ms="21532" status="PASS">
+        <test-method signature="choose_giftcard_validate()[pri:0, instance:testCase.TestCase3@7770f470]" started-at="2024-02-28T15:22:38 IST" name="choose_giftcard_validate" finished-at="2024-02-28T15:22:56 IST" duration-ms="18296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choose_giftcard_validate -->
-        <test-method signature="checkout_validation()[pri:6, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:38:01 IST" name="checkout_validation" finished-at="2024-02-27T17:38:04 IST" duration-ms="3656" status="PASS">
+        <test-method signature="checkout_validation()[pri:1, instance:testCase.TestCase3@7770f470]" started-at="2024-02-28T15:22:56 IST" name="checkout_validation" finished-at="2024-02-28T15:22:58 IST" duration-ms="1468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_validation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCase.TestCase@61322f9d]" started-at="2024-02-27T17:38:04 IST" name="closeBrowser" finished-at="2024-02-27T17:38:10 IST" duration-ms="5827" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCase.TestCase3@7770f470]" started-at="2024-02-28T15:22:58 IST" name="closeBrowser" finished-at="2024-02-28T15:22:59 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCase.TestCase3 -->
+      <class name="testCase.TestCase2">
+        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestCase2@d35dea7]" started-at="2024-02-28T15:22:13 IST" name="driverSetup" finished-at="2024-02-28T15:22:21 IST" duration-ms="7599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="submenu_printcheck()[pri:0, instance:testCase.TestCase2@d35dea7]" started-at="2024-02-28T15:22:21 IST" name="submenu_printcheck" finished-at="2024-02-28T15:22:29 IST" duration-ms="8342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submenu_printcheck -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCase.TestCase2@d35dea7]" started-at="2024-02-28T15:22:29 IST" name="closeBrowser" finished-at="2024-02-28T15:22:31 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCase.TestCase2 -->
+      <class name="testCase.TestCase">
+        <test-method is-config="true" signature="driverSetup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:21:34 IST" name="driverSetup" finished-at="2024-02-28T15:21:45 IST" duration-ms="11295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="search_functionality()[pri:0, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:21:45 IST" name="search_functionality" finished-at="2024-02-28T15:21:54 IST" duration-ms="9283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_functionality -->
+        <test-method signature="filter_functionality()[pri:1, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:21:55 IST" name="filter_functionality" finished-at="2024-02-28T15:22:00 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter_functionality -->
+        <test-method signature="check_sortfuction()[pri:2, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:22:00 IST" name="check_sortfuction" finished-at="2024-02-28T15:22:01 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_sortfuction -->
+        <test-method signature="check_and_print()[pri:3, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:22:02 IST" name="check_and_print" finished-at="2024-02-28T15:22:03 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_and_print -->
+        <test-method signature="submenu_printcheck()[pri:4, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:22:03 IST" name="submenu_printcheck" finished-at="2024-02-28T15:22:12 IST" duration-ms="8403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submenu_printcheck -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCase.TestCase@7817fd62]" started-at="2024-02-28T15:22:12 IST" name="closeBrowser" finished-at="2024-02-28T15:22:13 IST" duration-ms="1499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
